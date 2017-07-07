@@ -1,3 +1,3 @@
-# signoir
+# Rust
 
-A quick description of signoir.
+A quick description of ~~Rust~~.
