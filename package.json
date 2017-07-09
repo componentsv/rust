@@ -2,7 +2,7 @@
   "name"           : "signoir",
   "private"        : true,
   "version"        : "0.1.0",
-  "description"    : "A Strapi application.",
+  "description"    : "Signoir application.",
   "dependencies"   : {
     "anchor"                           : "~0.10.5",
     "async"                            : "~1.5.0",
@@ -58,12 +58,16 @@
   },
   "main"           : "./server.js",
   "scripts"        : {
-    "start": "node server.js",
-    "ng"   : "ng",
-    "build": "ng build",
-    "test" : "ng test",
-    "lint" : "ng lint",
-    "e2e"  : "ng e2e"
+    "start"         : "node server.js",
+    "ng"            : "ng",
+    "build"         : "ng build",
+    "test"          : "ng test",
+    "lint"          : "ng lint",
+    "e2e"           : "ng e2e",
+    "sg:serve"      : "ng serve -dop false",
+    "sg:build"      : "ng build -dop false",
+    "sg:serve-watch": "ng serve -dop false --watch",
+    "sg:build-watch": "ng build -dop false --watch"
   },
   "author"         : {
     "name" : "Author",
@@ -72,7 +76,7 @@
   },
   "maintainers"    : [
     {
-      "name" : "maintainers",
+      "name" : "Maintainers",
       "email": "",
       "url"  : ""
     }
